@@ -5,7 +5,8 @@
         <version>1.0.1</version>
         <authors>Clancey</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Websocket wrapper.</description>
+        <description>Websocket wrapper.
+https://github.com/Clancey/WebSocketWrapper</description>
         <summary>This is only needed until .net Standard 2.0</summary>
     </metadata>
     <files>
