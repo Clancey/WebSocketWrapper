@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>WebSocketWrapper</id>
+        <version>1.0.1</version>
+        <authors>Clancey</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Websocket wrapper.</description>
+        <summary>This is only needed until .net Standard 2.0</summary>
+    </metadata>
+    <files>
+        <file src="WebSockets.Droid\bin\Release\WebSockets.dll" target="lib\MonoAndroid\WebSockets.dll" />
+        <file src="WebSockets.PCL\bin\Release\WebSockets.dll" target="lib\Portable-Net45+WinRT45+WP8+WPA81\WebSockets.dll" />
+        <file src="WebSockets.UWP\bin\Release\WebSockets.dll" target="lib\uap10.0\WebSockets.dll" />
+        <file src="WebSockets.iOS\bin\Release\WebSockets.dll" target="lib\Xamarin.iOS10\WebSockets.dll" />
+    </files>
+</package>
